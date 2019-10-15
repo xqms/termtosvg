@@ -50,7 +50,7 @@ jobs:
 
   - stage: Test
     python: 3.8
-    dist: xenial
+    dist: bionic
     sudo: true
     install:
     - make install
@@ -59,7 +59,7 @@ jobs:
 
   - stage: Test
     python: 3.9-dev
-    dist: xenial
+    dist: bionic
     sudo: true
     install:
     - make install
