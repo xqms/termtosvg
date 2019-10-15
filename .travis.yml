@@ -4,7 +4,8 @@
 #       - Linux, Python 3.5
 #       - Linux, Python 3.6
 #       - Linux, Python 3.7
-#       - Linux, Python 3.8-dev
+#       - Linux, Python 3.8
+#       - Linux, Python 3.9-dev
 #       - macOS, Python 3.6
 #
 # 2/ Artifact deployment:
@@ -22,7 +23,7 @@
 language: python
 jobs:
   allow_failures:
-  - python: 3.8-dev
+  - python: 3.9-dev
   include:
   - stage: Test
     python: 3.5
@@ -48,7 +49,16 @@ jobs:
     - make tests
 
   - stage: Test
-    python: 3.8-dev
+    python: 3.8
+    dist: xenial
+    sudo: true
+    install:
+    - make install
+    script:
+    - make tests
+
+  - stage: Test
+    python: 3.9-dev
     dist: xenial
     sudo: true
     install:
