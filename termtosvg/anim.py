@@ -35,7 +35,7 @@ BG_RECT_TAG = etree.Element('rect', _BG_RECT_TAG_ATTRIBUTES)
 
 # Default size for a character cell rendered as SVG.
 CELL_WIDTH = 8
-CELL_HEIGHT = 17
+CELL_HEIGHT = 15
 
 # The number of character cells to leave when placing successive frames
 # so content does not bleed into adjacent frames
@@ -513,7 +513,7 @@ def _embed_css(root, timings=None, animation_duration=None):
     css_body = """#screen {
                 font-family: 'DejaVu Sans Mono', monospace;
                 font-style: normal;
-                font-size: 14px;
+                font-size: 13px;
             }
 
         text {
