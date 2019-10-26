@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 656 325" width="656" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="82" rows="19"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 27349ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+1.426%{transform:translateY(-340px)}
+1.953%{transform:translateY(-680px)}
+2.216%{transform:translateY(-1020px)}
+2.596%{transform:translateY(-1360px)}
+3.942%{transform:translateY(-1700px)}
+4.348%{transform:translateY(-2040px)}
+5.609%{transform:translateY(-2380px)}
+6.136%{transform:translateY(-2720px)}
+6.746%{transform:translateY(-3060px)}
+7.477%{transform:translateY(-3400px)}
+8.454%{transform:translateY(-3740px)}
+8.538%{transform:translateY(-4080px)}
+10.673%{transform:translateY(-4420px)}
+11.178%{transform:translateY(-4760px)}
+11.540%{transform:translateY(-5100px)}
+12.172%{transform:translateY(-5440px)}
+13.957%{transform:translateY(-5780px)}
+15.010%{transform:translateY(-6120px)}
+15.741%{transform:translateY(-6460px)}
+16.092%{transform:translateY(-6800px)}
+17.087%{transform:translateY(-7140px)}
+18.666%{transform:translateY(-7480px)}
+19.807%{transform:translateY(-7820px)}
+20.684%{transform:translateY(-8160px)}
+21.153%{transform:translateY(-8500px)}
+21.708%{transform:translateY(-8840px)}
+25.218%{transform:translateY(-9180px)}
+26.272%{transform:translateY(-9520px)}
+28.612%{transform:translateY(-9860px)}
+29.698%{transform:translateY(-10200px)}
+30.074%{transform:translateY(-10540px)}
+30.454%{transform:translateY(-10880px)}
+32.561%{transform:translateY(-11220px)}
+32.575%{transform:translateY(-11560px)}
+34.517%{transform:translateY(-11900px)}
+35.252%{transform:translateY(-12240px)}
+35.687%{transform:translateY(-12580px)}
+36.009%{transform:translateY(-12920px)}
+36.773%{transform:translateY(-13260px)}
+37.208%{transform:translateY(-13600px)}
+38.378%{transform:translateY(-13940px)}
+38.963%{transform:translateY(-14280px)}
+39.168%{transform:translateY(-14620px)}
+39.639%{transform:translateY(-14960px)}
+40.107%{transform:translateY(-15300px)}
+40.543%{transform:translateY(-15640px)}
+40.952%{transform:translateY(-15980px)}
+41.596%{transform:translateY(-16320px)}
+42.272%{transform:translateY(-16660px)}
+42.740%{transform:translateY(-17000px)}
+43.292%{transform:translateY(-17340px)}
+43.702%{transform:translateY(-17680px)}
+44.144%{transform:translateY(-18020px)}
+44.667%{transform:translateY(-18360px)}
+45.398%{transform:translateY(-18700px)}
+46.130%{transform:translateY(-19040px)}
+48.090%{transform:translateY(-19380px)}
+48.499%{transform:translateY(-19720px)}
+48.707%{transform:translateY(-20060px)}
+49.406%{transform:translateY(-20400px)}
+49.991%{transform:translateY(-20740px)}
+51.307%{transform:translateY(-21080px)}
+55.845%{transform:translateY(-21420px)}
+55.852%{transform:translateY(-21760px)}
+58.415%{transform:translateY(-22100px)}
+58.766%{transform:translateY(-22440px)}
+58.971%{transform:translateY(-22780px)}
+59.498%{transform:translateY(-23120px)}
+60.437%{transform:translateY(-23460px)}
+62.511%{transform:translateY(-23800px)}
+63.359%{transform:translateY(-24140px)}
+64.350%{transform:translateY(-24480px)}
+64.591%{transform:translateY(-24820px)}
+65.289%{transform:translateY(-25160px)}
+65.757%{transform:translateY(-25500px)}
+66.050%{transform:translateY(-25840px)}
+66.810%{transform:translateY(-26180px)}
+70.262%{transform:translateY(-26520px)}
+70.595%{transform:translateY(-26860px)}
+70.599%{transform:translateY(-27200px)}
+70.613%{transform:translateY(-27540px)}
+70.620%{transform:translateY(-27880px)}
+70.639%{transform:translateY(-28220px)}
+70.653%{transform:translateY(-28560px)}
+82.233%{transform:translateY(-28900px)}
+83.136%{transform:translateY(-29240px)}
+83.692%{transform:translateY(-29580px)}
+84.131%{transform:translateY(-29920px)}
+86.881%{transform:translateY(-30260px)}
+87.155%{transform:translateY(-30600px)}
+96.344%{transform:translateY(-30940px)}
+100.000%{transform:translateY(-30940px)}
+            }
+
+            #screen_view {
+                animation-duration: 27349ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* base16-default-dark color theme (source: http://chriskempson.com/projects/base16/) */
+            .foreground {fill: #ffffff;}
+            .background {fill: #000000;}
+            .color0 {fill: #000000;}
+            .color1 {fill: #b21818;}
+            .color2 {fill: #18b218;}
+            .color3 {fill: #b26818;}
+            .color4 {fill: #9a89e5;}
+            .color5 {fill: #b218b2;}
+            .color6 {fill: #18b2b2;}
+            .color7 {fill: #b2b2b2;}
+            .color8 {fill: #686868;}
+            .color9 {fill: #ff5454;}
+            .color10 {fill: #54ff54;}
+            .color11 {fill: #ffff54;}
+            .color12 {fill: #5454ff;}
+            .color13 {fill: #ff54ff;}
+            .color14 {fill: #54ffff;}
+            .color15 {fill: #ffffff;}
+        </style>
+    </defs>
+    <svg id="screen" width="656" height="323" viewBox="0 0 656 323" preserveAspectRatio="xMidYMin slice">
+    </svg>
+</svg>

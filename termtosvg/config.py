@@ -10,6 +10,7 @@ DEFAULT_TEMPLATES_NAMES = [
     'gjm8_play.svg',
     'gjm8_single_loop.svg',
     'dracula.svg',
+    'konsole.svg',
     'solarized_dark.svg',
     'solarized_light.svg',
     'base16_default_dark.svg',
